@@ -7,4 +7,60 @@
     android:layout_height="match_parent"
     tools:context=".PaginaFinal">
 
+    <TextView
+        android:id="@+id/Ususario_Final"
+        android:layout_width="112dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginBottom="621dp"
+        android:gravity="center"
+        android:text="Usuario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Direccion_Final"
+        android:layout_width="112dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="132dp"
+        android:gravity="center"
+        android:text="Direccion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Tamaño_Final"
+        android:layout_width="112dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="201dp"
+        android:gravity="center"
+        android:text="Tamaño"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Ingredientes_Final"
+        android:layout_width="112dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="273dp"
+        android:gravity="center"
+        android:text="Ingredientes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Precio_Final"
+        android:layout_width="150dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="381dp"
+        android:gravity="center"
+        android:text="Precio Final"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

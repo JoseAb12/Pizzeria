@@ -35,7 +35,7 @@
     </RadioGroup>
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/Tamañ_Lista"
         android:layout_width="105dp"
         android:layout_height="56dp"
         android:layout_marginStart="84dp"
@@ -71,7 +71,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/Usuario"
+        android:id="@+id/Usuario_Lista"
         android:layout_width="105dp"
         android:layout_height="56dp"
         android:layout_marginStart="144dp"
@@ -83,7 +83,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/direccion"
+        android:id="@+id/Direccion_Lista"
         android:layout_width="105dp"
         android:layout_height="56dp"
         android:layout_marginStart="144dp"
