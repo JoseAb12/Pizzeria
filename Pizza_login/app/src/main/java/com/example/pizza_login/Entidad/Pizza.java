@@ -48,9 +48,9 @@ public class Pizza {
     @Override
     public String toString() {
         return "Pizza{" +
-                "Usuario='" + Usuario + '\'' +
-                ", Direccion='" + Direccion + '\'' +
-                ", Tamaño='" + Tamaño + '\'' +
+                "Usuario='" + Usuario  + '\n' +
+                ", Direccion='" + Direccion  + '\n' +
+                ", Tamaño='" + Tamaño + '\n' +
                 ", i=" + i +
                 '}';
     }
