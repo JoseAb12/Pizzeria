@@ -1,6 +1,8 @@
 package com.example.pizza_login.Entidad;
 
-public class Pizza {
+import java.io.Serializable;
+
+public class Pizza implements Serializable {
     String Usuario;
     String Direccion;
     String Tamaño;
